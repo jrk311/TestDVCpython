@@ -8,6 +8,6 @@ jobs:
     steps:
     - name: Create file
       run: |
-        cd "C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\Test3"
+        cd "C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\TestDVC2"
         echo "Hola Mundo" > my_file_test.txt
         cat my_file_test.txt
