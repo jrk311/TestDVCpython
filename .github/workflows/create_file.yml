@@ -1,0 +1,13 @@
+name: Create-File
+
+on: [push]
+
+jobs:
+  create-file:
+    runs-on: self-hosted
+    steps:
+    - name: Create file
+      run: |
+        cd "C:\Users\jorge\Desktop\Jorge U\MindLabs\DVC\Test3"
+        echo "Hola Mundo" > my_file_test.txt
+        cat my_file_test.txt
